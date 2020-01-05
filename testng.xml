@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Regression Suite">
+<listeners>
+<listener class-name="listenerspkg.demoListen"></listener>
+</listeners>
+
+  <test thread-count="5" name="Chrome Test">
+    <classes>
+      <class name="listenerspkg.Demo2"/>
+      <class name="listenerspkg.Demo3"/>
+      <class name="listenerspkg.Demo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="FireFox Test">
+    <classes>
+      <class name="listenerspkg.Demo2"/>
+      <class name="listenerspkg.Demo3"/>
+      <class name="listenerspkg.Demo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
