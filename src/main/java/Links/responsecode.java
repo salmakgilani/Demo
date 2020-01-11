@@ -2,11 +2,8 @@ package Links;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
-import org.jsoup.helper.HttpConnection;
-import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class responsecode {
